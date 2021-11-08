@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Belajar HTML  - NIOMIC</title>
+ </head>
+ <body>
+   <audio src="sample.mp3" controls></audio>
+   <audio src="sample.mp3" controls muted></audio>
+   <audio src="sample.mp3" controls loop></audio>
+   <audio src="sample.mp3" controls preload="auto"></audio> //Otomatis download saat load browser
+   <br>
+   <audio src="sample.mp3" controls preload="none"></audio> //Akan download saat tombol play di klik
+   <br>
+   <audio src="sample.mp3" controls preload="meta"></audio> //Saat load akan download sebagian
+
+   <audio controls>         //Beberapa type audio
+     <source src="sample.mp3" type="audio/mp3">
+     <source src="sample.ogg" type="audio/ogg">
+   </audio>
+
+   <audio src="sample.mp3" controls autoplay></audio> //Auto play saat load browser
+   
+ </body>
+
+</html>
